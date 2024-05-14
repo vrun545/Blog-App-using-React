@@ -1,0 +1,97 @@
+/* CSS Margin and Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* CSS Globally Applied */
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #1e1e1e;
+  color: #000;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+}
+
+input, textarea, button, select {
+  font: inherit;
+  margin-bottom: 1em;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #000; 
+  color: #f5f5f5; 
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright-symbol {
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+  color: #f5f5f5;
+}
+
+
+/* Header Styles */
+.header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 24px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

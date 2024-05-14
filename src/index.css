@@ -1,0 +1,230 @@
+____________________________________________________________________
+
+/* Adding New Post in the List */
+
+h2 {
+  font-size: 32px; 
+  margin-bottom: 20px;
+  color: #ff8800; 
+  text-align: center;
+  padding: 10px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px; 
+  }
+
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+select,
+textarea {
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+
+}
+
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+____________________________________________________________________________________________________________________________________________
+
+/* Header CSS */
+
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: #ff5722;
+}
+
+.header-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.nav-link:hover {
+  color: #ff5722; 
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+
+
+____________________________________________________________________
+/* Heading of All Posts */
+
+.post-content {
+  font-size: 16px;
+  color: #666;
+}
+
+.post-author {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.posts-section {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.post-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.allpostheading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  background-color: #ff5722; 
+  padding: 10px 0; 
+  border-radius: 5px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+_____________________________________________________________
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #333;
+  color: whitesmoke;
+}
+input, textarea, button, select {
+  font: inherit;
+  margin-bottom: 1em;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+  padding: 0 10% 10%;
+}
+
+section {
+  margin-top: 1em;
+}
+
+article {
+  margin: 0.5em 0.5em 0.5em 0;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+.postCredit {
+  font-size: 1rem;
+}
+
+.reactionButton {
+  margin: 0 0.25em 0 0;
+  background: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}

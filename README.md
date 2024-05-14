@@ -50,10 +50,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- Thanks to the creators and maintainers of ReactJS, Redux Toolkit, and Firebase for their amazing tools and resources.
-
----
-
-Feel free to customize the content further according to your project's specifics or any additional details you'd like to include!
